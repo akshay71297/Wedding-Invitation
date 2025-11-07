@@ -130,18 +130,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* height: 100vh;
-    width: 100%; */
 	flex-direction: column;
 }
 
 /* Mobile-first: ensure page fits on screen and is not scrollable */
 html, body {
-	height: 100vh;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden; /* user requested no scrolling */
 }
 
 /* Make title names sit on the same line and scale on small screens */
